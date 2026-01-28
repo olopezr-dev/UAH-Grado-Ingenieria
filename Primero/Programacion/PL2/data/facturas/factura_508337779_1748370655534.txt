@@ -1,0 +1,18 @@
+===== FACTURA DE RESERVA =====
+Código: 508337779_1748370655534
+Fecha de reserva: 27/05/2025
+Cliente: HappyMerchant
+Correo: genocida@gmail.com
+Teléfono: 666699669
+
+Evento: Feria de Abril
+Tipo: FESTIVAL CULTURAL
+Fecha del evento: 01/04/2024 12:00
+Entradas: 2
+Precio unitario: 10.0€
+Precio final: 20,00€
+
+Dirección del evento: Calle: Calle del Infierno s/n
+Ciudad: Sevilla
+Código Postal: 41001
+¡Gracias por su compra!

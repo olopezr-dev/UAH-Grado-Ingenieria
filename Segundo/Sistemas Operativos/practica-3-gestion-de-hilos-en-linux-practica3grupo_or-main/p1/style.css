@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;   /* Fuente principal del sitio */
+    margin: 0;                        /* Elimina margen por defecto */
+    display: flex;                    /* Layout flexible */
+    flex-direction: column;           /* Distribuye los hijos en columna */
+    height: 100vh;                    /* Altura total de la ventana */
+}
+
+.header {
+    display: flex;                    /* Cabecera con layout flexible */
+    align-items: center;              /* Centra verticalmente el contenido */
+    justify-content: space-between;   /* Espacia elementos a izquierda y derecha */
+    background-color: #004080;        /* Fondo azul oscuro */
+    color: #fff;                      /* Texto blanco */
+    padding: 10px 20px;               /* Espaciado interno */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra inferior */
+    position: relative;               /* Necesario para posicionar elementos hijos absolutos */
+}
+
+.logo {
+    height: 50px;                     /* Altura fija del logo */
+    margin-right: 20px;               /* Separación a la derecha */
+}
+
+h1 {
+    margin: 0;                        /* Sin márgenes */
+    flex-grow: 1;                     /* Ocupa espacio disponible */
+}
+
+.github-icon {
+    color: #fff;                      /* Color blanco */
+    font-size: 2em;                   /* Tamaño grande */
+    text-decoration: none;            /* Sin subrayado */
+    position: absolute;               /* Posicionado dentro del header */
+    right: 20px;                      /* Separado 20px del borde derecho */
+}
+
+.github-icon:hover {
+    color: #ccc;                      /* Cambia a gris al pasar el cursor */
+}
+
+.container {
+    display: flex;                    /* Contenedor principal con flexbox */
+    flex-grow: 1;                     /* Ocupa todo el espacio disponible */
+}
+
+.menu {
+    width: 220px;                     /* Ancho fijo del menú lateral */
+    background-color: #f7f9fb;        /* Fondo gris claro */
+    padding: 20px;                    /* Espaciado interno */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra a la derecha */
+    border-right: 1px solid #ccc;     /* Línea separadora */
+    border-radius: 0 10px 10px 0;     /* Bordes redondeados a la derecha */
+}
+
+.menu h2 {
+    margin-top: 0;                    /* Quita margen superior */
+    margin-bottom: 20px;              /* Espacio inferior */
+    padding: 10px;                    /* Relleno */
+    padding-left: 10px;               /* Ajuste a la izquierda */
+    color: #004080;                   /* Texto azul oscuro */
+}
+
+.menu h2 a {
+    font-size: inherit;               /* Usa tamaño de fuente heredado */
+    color: inherit;                   /* Mantiene color */
+    text-decoration: none;            /* Sin subrayado */
+    display: block;                   /* Ocupa ancho completo */
+    padding: 0;                       /* Sin relleno */
+    padding-left: 0;                  /* Ajuste a la izquierda */
+}
+
+.menu h2 a:hover {
+    background-color: #004080;        /* Fondo azul al pasar cursor */
+    color: #fff;                      /* Texto blanco */
+}
+
+.menu ul {
+    list-style-type: none;            /* Quita viñetas */
+    padding: 0;                       /* Sin espaciado interno */
+}
+
+.menu li {
+    margin-bottom: 15px;              /* Espacio entre ítems */
+    padding-left: 15px;               /* Indentación */
+}
+
+.menu a {
+    text-decoration: none;            /* Sin subrayado */
+    color: #222;                      /* Texto gris oscuro */
+    display: block;                   /* Ocupa ancho completo */
+    padding: 10px;                    /* Espaciado interno */
+    border-radius: 5px;               /* Bordes redondeados */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
+
+.menu a:hover {
+    background-color: #004080;        /* Fondo azul al pasar cursor */
+    color: #fff;                      /* Texto blanco */
+}
+
+.menu li ul li a {
+    margin-top: 15px;                 /* Espacio arriba */
+    margin-bottom: 15px;              /* Espacio abajo */
+    margin-left: 5px;                 /* Indentación extra */
+    font-size: 0.95em;                /* Texto un poco más pequeño */
+    color: #666;                      /* Texto gris medio */
+    list-style-type: none;            /* Quita viñetas */
+}
+
+.menu span {
+    text-decoration: none;            /* Sin subrayado */
+    color: #222;                      /* Texto gris oscuro */
+    display: block;                   /* Ocupa todo el ancho */
+    padding: 10px;                    /* Espaciado */
+    border-radius: 5px;               /* Bordes redondeados */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efecto hover suave */
+}
+
+.content {
+    flex-grow: 1;                     /* Se expande ocupando el resto del espacio */
+    padding: 20px;                    /* Espaciado interno */
+    overflow: auto;                   /* Barra de scroll si el contenido se desborda */
+}
+
+iframe {
+    width: 100%;                      /* Ocupar todo el ancho */
+    height: 100%;                     /* Ocupar todo el alto disponible */
+    border: none;                     /* Sin borde */
+}

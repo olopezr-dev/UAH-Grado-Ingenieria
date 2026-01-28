@@ -1,0 +1,53 @@
+# --- Archivos de Sistema Windows ---
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- IDEs y Editores (Configuraciones que no deben subirse) ---
+# VS Code
+.vscode/
+*.code-workspace
+
+# CodeBlocks
+*.layout
+*.depend
+*.cbp
+bin/
+obj/
+
+# JetBrains (PyCharm, IntelliJ)
+.idea/
+*.iml
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# --- Lenguajes ---
+
+# C y C++ (Compilados y ejecutables)
+*.exe
+*.dll
+*.o
+*.obj
+*.out
+
+# Java (Compilados)
+*.class
+*.jar
+*.war
+
+# Python (Caché y entornos virtuales)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# --- Varios ---
+*.log
+.env

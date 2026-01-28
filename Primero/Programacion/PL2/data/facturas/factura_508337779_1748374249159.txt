@@ -1,0 +1,18 @@
+===== FACTURA DE RESERVA =====
+Código: 508337779_1748374249159
+Fecha de reserva: 27/05/2025
+Cliente: HappyMerchant
+Correo: genocida@gmail.com
+Teléfono: 666699669
+
+Evento: Feria del Libro Antiguo
+Tipo: FESTIVAL CULTURAL
+Fecha del evento: 10/11/2023 10:00
+Entradas: 1
+Precio unitario: 8.0€
+Precio final: 8,00€
+
+Dirección del evento: Calle: Plaza Mayor s/n
+Ciudad: Valladolid
+Código Postal: 47001
+¡Gracias por su compra!

@@ -1,0 +1,18 @@
+===== FACTURA DE RESERVA =====
+Código: 508337779_1748370923923
+Fecha de reserva: 27/05/2025
+Cliente: HappyMerchant
+Correo: genocida@gmail.com
+Teléfono: 666699669
+
+Evento: Exposición de Arte Contemporáneo Internacional
+Tipo: FESTIVAL CULTURAL
+Fecha del evento: 30/10/2023 21:00
+Entradas: 2
+Precio unitario: 12.0€
+Precio final: 24,00€
+
+Dirección del evento: Calle: Calle Bailén 12
+Ciudad: Zaragoza
+Código Postal: 50001
+¡Gracias por su compra!

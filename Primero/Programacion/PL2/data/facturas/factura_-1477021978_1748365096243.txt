@@ -1,0 +1,19 @@
+===== FACTURA DE RESERVA =====
+Código: -1477021978_1748365096243
+Fecha de reserva: 27/05/2025
+Cliente: Lasersub
+Correo: matajudios@gmail.com
+Teléfono: 666699669
+
+Evento: Cine de Verano
+Tipo: CINE
+Fecha del evento: 15/07/2023 22:30
+Entradas: 3
+Precio unitario: 5.5€
+Descuento aplicado: 10%
+Precio final: 14,85€
+
+Dirección del evento: Calle: Paseo Marítimo s/n
+Ciudad: Málaga
+Código Postal: 29016
+¡Gracias por su compra!

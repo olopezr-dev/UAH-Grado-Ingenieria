@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Documento HTML5, en español -->
+<head>
+    <meta charset="UTF-8"> <!-- Codificación de caracteres en UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Diseño responsive -->
+    <title>Aprendiendo la CLI de Linux</title> <!-- Título de la pestaña del navegador -->
+
+    <!-- Hoja de estilos propia -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Librería de iconos Font Awesome (para el logo de GitHub, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Encabezado principal -->
+    <div class="header">
+        <!-- Logo de la UAH -->
+        <img src="images/logo-uah.png" alt="Logo UAH" class="logo">
+
+        <!-- Título principal -->
+        <h1>Aprendiendo la CLI de Linux</h1>
+
+        <!-- Icono con enlace al repositorio de GitHub -->
+        <a href="https://github.com/UAH-EPS-GII-GINFOADE-SSOO/LabSSOO-Prac2" class="github-icon" target="_blank">
+            <i class="fab fa-github"></i> <!-- Icono de GitHub de Font Awesome -->
+        </a>
+    </div>
+
+    <!-- Contenedor general que agrupa menú lateral y contenido -->
+    <div class="container">
+
+        <!-- Menú lateral de navegación -->
+        <div class="menu">
+            <!-- Enlace de inicio -->
+            <h2><a href="#" onclick="loadNotebook('notebookInicio.html')">Inicio</a></h2>
+
+            <!-- Sección de temario -->
+            <h2>Temario</h2>
+            <ul>
+                <li><a href="#" onclick="loadNotebook('notebookIntroduccion.html')">Introducción</a></li>
+                <li><a href="#" onclick="loadNotebook('notebookComandosBasicos.html')">Comandos básicos</a></li>
+                <li>
+                    <!-- Tema con subtemas -->
+                    <a href="#" onclick="loadNotebook('notebookSistemaArchivos.html')">Sistema de archivos de Linux</a>
+                    <ul>
+                        <li><a href="#" onclick="loadNotebook('notebookPermisos.html')">Permisos</a></li>
+                        <li><a href="#" onclick="loadNotebook('notebookEnlaces.html')">Enlaces</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" onclick="loadNotebook('notebookVariables.html')">Variables y archivos de configuración</a></li>
+                <li><a href="#" onclick="loadNotebook('notebookProcesos.html')">Procesos</a></li>
+                <li><a href="#" onclick="loadNotebook('notebookSeñales.html')">Comunicación entre procesos</a></li>
+                <li><a href="#" onclick="loadNotebook('notebookRedireccionesTuberias.html')">Redirecciones y tuberías</a></li>
+                <li><a href="#" onclick="loadNotebook('notebookFiltros.html')">Uso de filtros</a></li>
+
+                <!-- Sección de miscelánea con subtemas -->
+                <li>
+                    <span>Miscelánea</span>
+                    <ul>
+                        <li><a href="#" onclick="loadNotebook('notebookRegex.html')">Expresiones Regulares</a></li>
+                        <li><a href="#" onclick="loadNotebook('notebookPaquetes.html')">Instalación de paquetes</a></li>
+                        <li><a href="#" onclick="loadNotebook('notebookEmpaquetado.html')">Empaquetado de archivos</a></li>
+                        <li><a href="#" onclick="loadNotebook('notebookAlmacenamiento.html')">Uso de disco</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Sección de autoevaluación -->
+            <h2>Autoevaluación</h2>
+            <ul>
+                <li><a href="#" onclick="loadNotebook('notebookEjercicios.html')">Ejercicios</a></li>
+                <li><a href="#" onclick="loadNotebook('notebookSoluciones.html')">Soluciones</a></li>
+            </ul>
+        </div>
+
+        <!-- Área de contenido principal -->
+        <div class="content">
+            <!-- Visor donde se cargarán los notebooks HTML -->
+            <iframe id="notebookViewer" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <!-- Script principal con funciones -->
+    <script src="script.js"></script>
+</body>
+</html>

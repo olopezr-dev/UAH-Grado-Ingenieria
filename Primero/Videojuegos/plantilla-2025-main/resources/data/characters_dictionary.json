@@ -1,0 +1,207 @@
+{
+  "ghost": {
+    "images": "Enemy/Enemy 09-1.png"
+  },
+  "teddy": {
+    "images": "Enemy/Enemy 10-1.png",
+    "interaction_type": "dialogue",
+    "dialogue": [
+      "Enhorabuena, lo has conseguido",
+      "*Miras raro al oso de peluche*",
+      "No es magia rara, soy tu hermano",
+    "Al explotar, mi alma se fue al osito que era lo que mas queria en este mundo",
+      "*Te quedas mirandolo raro*",
+      "*Le das una patada porque piensas que es raro*",
+      "FIN DEL JUEGO",
+      "Esperamos que hayas disfrutado de la experiencia de juego, de los dialogos y del sistema de batalla",
+      "Tienes alguno items por el mapa que son interactuables y tienen un dialogo gracioso"
+
+
+  ]
+  },
+  "fantasma": {
+    "images": "Enemy/Enemy 10-1.png",
+    "interaction_type": "dialogue",
+    "dialogue": [
+      "BOO",
+      "Te he dado un susto eh",
+      "Bueno soy un fantasma testigo de jehova",
+    "Alguna vez le han hablado de la palabra de jesucristo?",
+      "Si no es asi, yo le cuento...",
+      "Blah",
+      "Blah",
+      "Blah",
+      "Blah",
+      "*Saca una biblia, la lee y se exorciza*",
+      "*Se evapora lentamente*"
+
+  ]
+  },
+  "skeleton_king": {
+    "images": "Enemy/Enemy 10-1.png",
+    "interaction_type": "dialogue",
+    "dialogue": [
+      "*El Rey esqueleto viene caminando hacia ti...*",
+      "*Da un paso en falso y se cae...*",
+      "*Solo queda de el una calavera*",
+    "Ahora que he perdido el jefe me va a mandar al SEPE...",
+      "NOOOOOOO...",
+      "Bueno, aun asi, cobro mas en el paro YUHUUUU",
+      "Tu crees que me daran la carta de recomendacion?",
+      "y en el paro tendre que hacer mucha cola?",
+      "Como sea, ahora tengo mas tiempo para mis hobbies esqueleticos",
+      "*Se fue rodando y silbando un tema de ultratumba :)*"
+
+  ]
+  },
+  "cartel_informacion": {
+    "images": "Male/Male 10-2.png",
+    "interaction_type": "dialogue",
+    "dialogue": [
+      "Bienvenido al reino de Zampablandia",
+      "Para quien no conozca el sitio un poco de informacion:",
+      "Cementerio: a la izquierda del todo",
+      "Fuente inutil de los deseos: abajo del todo",
+      "Herreria abandonada: a la izquierda abajo",
+      "Espero que lo hayas memorizado, me autodestruire en:",
+      "5...",
+      "4...",
+      "3...",
+      "2..",
+      "1.",
+      "BOOOOM",
+      "JAJA era broma",
+      "*Es un misterio el como han metido tanto texto en este letrero*"
+
+  ]
+  },
+  "buzon": {
+    "images": "Male/Male 10-2.png",
+    "interaction_type": "dialogue",
+    "dialogue": [
+      "*No tienes Cartas*"
+
+  ]
+  },
+  "fuente": {
+    "images": "Male/Male 10-2.png",
+    "interaction_type": "dialogue",
+    "dialogue": [
+      "*Coges una moneda y procedes a lanzarla*",
+      "*Se te cae de la mano*",
+      "*Cae de canto en el resto de monedas en el suelo*",
+    "*Intentas cogerla pero parece que por arte de magia se ha quedado pegada al suelo*",
+      "*Escuchas una risa de fondo*"
+
+
+  ]
+  },
+  "hermano": {
+    "images": "Male/Male 10-2.png",
+    "interaction_type": "dialogue",
+    "dialogue": [
+      "*sniff* *sniff*",
+      "*Parece que se va a quedar seco de tanto llorar*",
+      "Hermanitoooooo",
+    "Me han... Me han robado el osito de peluche",
+      "Tienes que recuperarlo para que pueda dormir",
+      "Sabes bien que sin el no voy a dormir nunca y va a ser tu culpa",
+      "Ademas, asi te pones a hacer algo que no trabajas ni estudias",
+      "*Sonrie maleficamente :)*",
+      "Los malos malisimos se han ido al cementerio, los vi por la ventana",
+      "*Se pone a llorar como si fuera un sifon a punto de explotar*",
+      "*EXPLOTA*"
+
+
+
+  ]
+  },
+  "demon2": {
+    "images": "Enemy/Enemy 14-1.png"
+  },
+  "demon": {
+    "images": "Enemy/Enemy 13-1.png",
+    "interaction_type": "dialogue",
+    "dialogue": [
+    "¡Por los calzones de mi tatarabuela!",
+    "¡Eres más valiente que un gato encima de una Roomba!",
+    "Toma esta espada, con ella podrás incluso abrir cajas fuertes... o rebanar baguettes."
+  ]
+  },
+  "red_wizard": {
+    "images": "Enemy/Enemy 15-3.png",
+   "interaction_type": "dialogue",
+    "dialogue": [
+      "Hola funciono"
+
+  ]
+  },
+  "novia": {
+    "images": "Enemy/Enemy 06-1.png",
+    "interaction_type": "battle",
+    "type": "Hola funciono",
+    "name": "novia",
+    "intro": ["Te casas conmigo"],
+    "hp": 120
+
+  },
+  "calabaza": {
+    "images": "Enemy/Enemy 06-1.png",
+    "interaction_type": "battle",
+    "type": "Hola funciono",
+    "name": "calabaza",
+    "intro": ["Estoy sembrado"],
+    "hp": 120
+
+  },
+  "mago": {
+    "images": "Enemy/Enemy 06-1.png",
+    "interaction_type": "battle",
+    "type": "Hola funciono",
+    "name": "mago",
+    "intro": ["Te miro y te hechizo"],
+    "hp": 120
+
+  },
+  "jefe": {
+    "images": "Enemy/Enemy 06-1.png",
+    "interaction_type": "battle",
+    "type": "Hola funciono",
+    "name": "jefe",
+    "intro": ["Soy tu fin"],
+    "hp": 150
+
+  },
+  "skeleton": {
+    "images": "Enemy/Enemy 06-1.png",
+    "interaction_type": "battle",
+    "type": "Hola funciono",
+    "name": "skeleton",
+    "intro": ["Te voy a crujir"],
+    "hp": 100
+
+  },
+  "white_cat": {
+    "images": "Animal/Cat 01-1.png",
+
+    "name": "white_cat",
+    "dialogue": [
+        "Miau! Soy un gato misterioso.",
+        "Tienes comida para mí?",
+        "si no es asi VETE DE MI ZONA"
+    ]
+
+  },
+  "grey_cat": {
+    "images": "Animal/Cat 01-2.png"
+  },
+  "orange_cat": {
+    "images": "Animal/Cat 01-3.png"
+  },
+  "orange_dog": {
+    "images": "Animal/Dog 01-1.png"
+  },
+  "grey_dog": {
+    "images": "Animal/Dog 01-2.png"
+  }
+}

@@ -1,0 +1,18 @@
+===== FACTURA DE RESERVA =====
+Código: 508337779_1748362356394
+Fecha de reserva: 27/05/2025
+Cliente: HappyMerchant
+Correo: genocida@gmail.com
+Teléfono: 666699669
+
+Evento: Jazz en la Ría
+Tipo: CONCIERTO
+Fecha del evento: 30/09/2023 22:00
+Entradas: 2
+Precio unitario: 35.0€
+Precio final: 70,00€
+
+Dirección del evento: Calle: Plaza Arriaga 1
+Ciudad: Bilbao
+Código Postal: 48005
+¡Gracias por su compra!

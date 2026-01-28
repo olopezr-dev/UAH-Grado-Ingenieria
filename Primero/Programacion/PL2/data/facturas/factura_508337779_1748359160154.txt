@@ -1,0 +1,16 @@
+===== FACTURA DE RESERVA =====
+Código: 508337779_1748359160154
+Fecha de reserva: 27/05/2025
+Cliente: HappyMerchant
+Correo: genocida@gmail.com
+Teléfono: 666699669
+
+Evento: Real Madrid vs Barcelona
+Tipo: DEPORTE
+Fecha del evento: 12/11/2023 21:00
+Entradas: 5
+Precio unitario: 120.0€
+Precio final: 600,00€
+
+Dirección del evento: poo.PL2.Clases.Direccion@1558e184
+¡Gracias por su compra!
